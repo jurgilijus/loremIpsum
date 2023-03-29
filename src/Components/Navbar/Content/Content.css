@@ -131,6 +131,9 @@ hr {
   font-size: 16px;
   line-height: 24px;
 }
+.btn:hover {
+  cursor: pointer;
+}
 .arrows {
   width: 32px;
   height: 32px;
