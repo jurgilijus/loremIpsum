@@ -1,0 +1,19 @@
+.nav-conteiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 56px;
+  background: #003366;
+  box-shadow: 0px 4px 0px #c20017;
+}
+h1 {
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+
+  color: #ffffff;
+}

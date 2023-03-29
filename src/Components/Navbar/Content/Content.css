@@ -1,0 +1,209 @@
+/* Font style import */
+
+/* Roboto Condensed */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+/* Inter */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.content-conteiner {
+  position: relative;
+  top: 4px;
+  display: flex;
+  gap: 16px;
+}
+.aligne-content {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 16px;
+  width: 100%;
+  height: 100%;
+  gap: 24px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+h3 {
+  font-family: "Roboto Condensed";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #c20017;
+}
+h2 {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #000000;
+}
+p {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+}
+label {
+  display: flex;
+  gap: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+}
+label::before,
+label::after {
+  content: "|";
+  color: #f2f2f2;
+}
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.asSeenOn-conteiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 0px;
+  gap: 8px;
+  width: 100%;
+}
+.asSeenOn {
+  display: flex;
+  flex-direction: row;
+  font-family: "Inter";
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+  min-width: 72px;
+}
+hr {
+  width: 100%;
+  height: 0px;
+  border: 1px solid #f2f2f2;
+}
+.logo-banner {
+  display: flex;
+  gap: 12px;
+  position: relative;
+  top: -12px;
+}
+.long-line {
+  width: 100%;
+  border: 1px solid #f2f2f2;
+  position: relative;
+  top: -12px;
+}
+.main-img {
+  width: 100%;
+}
+.btn {
+  margin: 16px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: #ffffff;
+  background: #c20017;
+  box-shadow: 0px 3px 0px #940012;
+  border-radius: 4px;
+  padding: 16px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+.arrows {
+  width: 32px;
+  height: 32px;
+}
+.sticky-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 300px;
+  height: 530px;
+  background-color: #ffffff;
+  padding: 8px;
+}
+.frame77 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background: #fafafa;
+  height: 112px;
+  width: 100%;
+  border: 1px solid #f2f2f2;
+}
+.rate {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.rate-txt {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+.rated {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4f4f4f;
+}
+strong {
+  font-weight: 900;
+}
+.based-info {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #828282;
+}
+.trustScore {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+}
+.productImage {
+  max-width: 177.7px;
+  height: 230px;
+}
+.brand-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #003366;
+}
